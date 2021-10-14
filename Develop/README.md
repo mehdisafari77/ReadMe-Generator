@@ -1,31 +1,32 @@
-# ee
+# README Generator 
 
-## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-<br/>
-[Description](#description) <br/>
-[Technology](#technology) <br/>
-[Installation](#installation) <br/>
-[Usage](#usage) <br/>
-[License](#license) <br/>
-[Tests](#tests) <br/>
-[Questions](#questions)
-<br/>
-## Description
-ee
+## Summary
+this is a project that creates a README file for a user after prompting multiple questionsin the terminal using node.js. After the questions are answered the generator will generate a README file using "inquirer" and "fs.writeFile" from the NPM library. 
 
-## Technology
-ww
+## README Generation GIF
 
-## Installation
-ee
 
-## Usage
-ww
+## Technology Used
+- Javascript
+- Node.js
+- NPM Library (Inquirer, fs)
 
-## Tests
-ww
+## Code Snippet
+```javascript
+ function init() {
+    inquirer.prompt(questions)
+    .then(response => {
+        fs.writeFile("README2.md", generateMarkdown(response), err => {
+            console.log(err)
+        })
+    })
+}
+```
 
-## Questions
-Reach me at github.com/ww <br/>
-<a href="ww">ww</a>
+## Author
+
+* **Mehdi Safari**
+
+- [Link to Portfolio Site](https://mehdisafari77.github.io/Basic-Bio/)
+- [Link to Github](https://github.com/mehdisafari77)
+- [Link to LinkedIn](https://www.linkedin.com/in/mehdi-safari-992799142/)
