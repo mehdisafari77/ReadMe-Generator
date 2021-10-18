@@ -1,7 +1,7 @@
 # README Generator 
 
 ## Summary
-this is a project that creates a README file for a user after prompting multiple questionsin the terminal using node.js. After the questions are answered the generator will generate a README file using "inquirer" and "fs.writeFile" from the NPM library. 
+this is a project that creates a README file for a user after prompting multiple questions in the terminal using node.js. After the questions are answered the generator will generate a README file using "inquirer" and "fs.writeFile" from the NPM library. 
 
 ## README Generation GIF
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75599021/137399929-0de70bfa-da58-44ae-b866-b6efd118a081.gif)
