@@ -18,7 +18,7 @@ https://youtu.be/_BI_953tAvs
 1. First open Terminal.
 2. Navigate to repo file.
 3. enter in Terminal "npm install" in order to install all dependecies.
-4. After installation is complete, you can navigate to the folder when the Index.js is with in Terminal using "cd Develop" which is the name of the folder.
+4. After installation is complete, you can navigate to the folder where the Index.js is within Terminal using "cd Develop" which is the name of the folder.
 5. Start the README generation by running "node index.js" within your Terminal.
 6. After all questions are answered, a file under the name README2.md will be generated for you with the information that was given to Terminal as answers to the prompts.
 
